@@ -31,7 +31,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="firstLabel" destination="0vn-3c-Syq" id="Y8b-zx-g7n"/>
-                                    <segue destination="vXZ-lx-hvc" kind="push" id="YJS-DX-1UE"/>
+                                    <segue destination="vXZ-lx-hvc" kind="push" identifier="next" id="YJS-DX-1UE"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

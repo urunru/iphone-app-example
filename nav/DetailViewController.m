@@ -28,7 +28,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     // Stringオブジェクトをつくります
-    NSString* urlString = @"http://google.com";
+    NSString* urlString = self.receiveUrl;
     // これを使って、URLオブジェクトをつくります
     NSURL* googleURL = [NSURL URLWithString: urlString];
     // さらにこれを使って、Requestオブジェクトをつくります

@@ -10,5 +10,5 @@
 
 @interface DetailViewController : ViewController
 @property (weak, nonatomic) IBOutlet UIWebView *firstWebView;
-
+@property NSString *receiveUrl;
 @end

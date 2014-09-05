@@ -8,6 +8,7 @@
 
 #import "ArticleTableViewController.h"
 #import "ArticleTableViewCell.h"
+#import "DetailViewController.h"
 
 @interface ArticleTableViewController ()
 
@@ -67,6 +68,15 @@
     return cell;
 }
 
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    //Segueの特定
+    if ( [[segue identifier] isEqualToString:@"next"] ) {
+        DetailViewController *nextViewController = [segue destinationViewController];
+        //ここで遷移先ビューのクラスの変数receiveStringに値を渡している
+        nextViewController.receiveUrl = @"http://google.com";
+    }
+}
 
 /*
 // Override to support conditional editing of the table view.
