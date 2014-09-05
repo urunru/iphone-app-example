@@ -22,6 +22,9 @@
 		76804DF919B9DDB2002B362C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76804DD819B9DDB2002B362C /* UIKit.framework */; };
 		76804E0119B9DDB2002B362C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76804DFF19B9DDB2002B362C /* InfoPlist.strings */; };
 		76804E0319B9DDB2002B362C /* navTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76804E0219B9DDB2002B362C /* navTests.m */; };
+		76804E1119B9E036002B362C /* ArticleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76804E1019B9E036002B362C /* ArticleTableViewController.m */; };
+		76804E1419B9E185002B362C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76804E1319B9E185002B362C /* DetailViewController.m */; };
+		76804E1719B9E3DE002B362C /* ArticleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76804E1619B9E3DE002B362C /* ArticleTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,12 @@
 		76804DFE19B9DDB2002B362C /* navTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "navTests-Info.plist"; sourceTree = "<group>"; };
 		76804E0019B9DDB2002B362C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		76804E0219B9DDB2002B362C /* navTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = navTests.m; sourceTree = "<group>"; };
+		76804E0F19B9E036002B362C /* ArticleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleTableViewController.h; sourceTree = "<group>"; };
+		76804E1019B9E036002B362C /* ArticleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleTableViewController.m; sourceTree = "<group>"; };
+		76804E1219B9E185002B362C /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		76804E1319B9E185002B362C /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		76804E1519B9E3DE002B362C /* ArticleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleTableViewCell.h; sourceTree = "<group>"; };
+		76804E1619B9E3DE002B362C /* ArticleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +131,12 @@
 				76804DED19B9DDB2002B362C /* ViewController.m */,
 				76804DEF19B9DDB2002B362C /* Images.xcassets */,
 				76804DDB19B9DDB2002B362C /* Supporting Files */,
+				76804E0F19B9E036002B362C /* ArticleTableViewController.h */,
+				76804E1019B9E036002B362C /* ArticleTableViewController.m */,
+				76804E1219B9E185002B362C /* DetailViewController.h */,
+				76804E1319B9E185002B362C /* DetailViewController.m */,
+				76804E1519B9E3DE002B362C /* ArticleTableViewCell.h */,
+				76804E1619B9E3DE002B362C /* ArticleTableViewCell.m */,
 			);
 			path = nav;
 			sourceTree = "<group>";
@@ -253,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76804E1419B9E185002B362C /* DetailViewController.m in Sources */,
 				76804DEE19B9DDB2002B362C /* ViewController.m in Sources */,
 				76804DE519B9DDB2002B362C /* AppDelegate.m in Sources */,
+				76804E1119B9E036002B362C /* ArticleTableViewController.m in Sources */,
+				76804E1719B9E3DE002B362C /* ArticleTableViewCell.m in Sources */,
 				76804DE119B9DDB2002B362C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
