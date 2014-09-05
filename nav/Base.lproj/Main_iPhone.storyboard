@@ -66,7 +66,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="dfm-a9-JGd"/>
+                    <navigationItem key="navigationItem" id="dfm-a9-JGd">
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="ekO-OP-izi">
+                            <connections>
+                                <action selector="showActionSheet:" destination="vXZ-lx-hvc" id="XVA-KG-aao"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="firstWebView" destination="4pR-fG-wlu" id="fEr-L6-bFT"/>
                     </connections>

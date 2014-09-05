@@ -10,5 +10,6 @@
 
 @interface DetailViewController : ViewController
 @property (weak, nonatomic) IBOutlet UIWebView *firstWebView;
+- (IBAction)showActionSheet:(id)sender;
 @property NSString *receiveUrl;
 @end
